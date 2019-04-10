@@ -11,7 +11,7 @@ from evaluator import Evaluator
 from ddpg import DDPG
 from util import *
 
-gym.undo_logger_setup()
+# gym.undo_logger_setup()
 
 def train(num_iterations, agent, env,  evaluate, validate_steps, output, max_episode_length=None, debug=False):
 
